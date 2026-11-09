@@ -1,0 +1,8 @@
+P03
+V1 IN 0 PULSE(0 9 0 1n 1n 5 10)
+R1 X OUT 3k
+R2 IN X 3k
+R3 IN OUT 4k
+R4 X 0 2k
+C1 IN X 1u
+.end

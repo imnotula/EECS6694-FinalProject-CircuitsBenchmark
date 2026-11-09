@@ -1,0 +1,32 @@
+# Proposal references
+
+The 16 numbered entries follow the order in the [original proposal](source/proposal.pdf). Each original paper link was extracted from the PDF. Publisher, conference, indexing or preprint records were located for all 16. Access varies by host. The notes identify how to use each reference in this project.
+
+## Read first
+
+Read 1 for wire connectivity, 2 for failure analysis and simulation, and 4 for task difficulty. Then compare the additional CIRCUIT experiment below with the proposed image-only versus netlist-only test.
+
+## Reference map
+
+1. **Enhancing Circuit Diagram Understanding via Near Sight Correction Using VLMs.** CVF workshop paper. The authors examine errors in identifying connections and use local inspection. Use this for the separate connectivity task and the visual ablation. [Proposal link](https://openaccess.thecvf.com/content/ICCV2025W/MMFM/papers/Kulkarni_Enhancing_Circuit_Diagram_Understanding_via_Near_Sight_Correction_Using_VLMs_ICCVW_2025_paper.pdf)
+2. **Enhancing Large Language Model-Based Systems for End-to-End Circuit Analysis Problem Solving.** arXiv full text. Chen and colleagues distinguish diagram recognition from reasoning errors and use ngspice to check solutions. Here the evaluator runs the simulator while the tested models receive one circuit input. [Proposal link](https://arxiv.org/abs/2512.10159) · [Additional access](https://arxiv.org/html/2512.10159)
+3. **OmniSch: A Multimodal PCB Schematic Benchmark For Structured Diagram Visual Reasoning.** arXiv. Useful for defining what a correct component or connection means in a schematic. The PCB collection is broader than this pilot. [Proposal link](https://arxiv.org/abs/2604.00270)
+4. **CircuitSense.** arXiv and project page. The project reports a large performance difference between recognition and equation derivation. This motivates separate topology, behavior and numeric scores. Its results apply to its own tasks and evaluated models. [Proposal link](https://arxiv.org/abs/2509.22339) · [Additional access](https://circuitsense-benchmark.github.io/) · [Original OpenReview link](https://openreview.net/forum?id=WEuJlEJmX8)
+5. **MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts.** arXiv. Background on visual inputs and mathematical reasoning across domains. [Proposal link](https://arxiv.org/abs/2310.02255)
+6. **Visual Programming: Compositional Visual Reasoning without Training.** arXiv. Background for a later staged visual-inspection method. [Proposal link](https://arxiv.org/abs/2211.11559)
+7. **MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI.** arXiv. Broad benchmark context for discipline-specific visual questions. [Proposal link](https://arxiv.org/abs/2311.16502)
+8. **CircuitVQA: A Visual Question Answering Dataset for Electrical Circuit Images.** Bibliographic record and accessible conference preprint. Its counting, value and junction questions provide context for Q1. [Proposal link](https://doi.org/10.1007/978-3-031-70341-6_26) · [Additional access](https://ecmlpkdd-storage.s3.eu-central-1.amazonaws.com/preprints/2024/lncs14941/lncs14941437.pdf)
+9. **Circuit-Think: A Multimodal Reasoning Framework for Automated Circuit-to-Netlist Translation with Trajectory-Guided Reinforcement Learning.** AAAI article and PDF. Relevant to schematic-to-netlist extraction. Our netlist baseline is prepared independently of the evaluated model. [Proposal link](https://doi.org/10.1609/aaai.v40i7.37465) · [Additional access](https://ojs.aaai.org/index.php/AAAI/article/view/37465)
+10. **MMCircuitEval: A Comprehensive Multimodal Circuit-Focused Benchmark for Evaluating LLMs.** IEEE record and arXiv version. Compare its coverage and task taxonomy with the narrower matched-format protocol. [Proposal link](https://doi.org/10.1109/ICCAD66269.2025.11240653) · [Additional access](https://arxiv.org/abs/2507.19525)
+11. **Benchmarking Large Language Models on Homework Assessment in Circuit Analysis.** Publisher and arXiv. Useful for grading dimensions and the original teaching motivation. Its task evaluates grading student solutions. [Proposal link](https://doi.org/10.1007/s40593-025-00501-w) · [Additional access](https://arxiv.org/abs/2506.06390)
+12. **Digitize-HCD: A Dataset for Digitization of Handwritten Circuit Diagrams.** Open-access article and indexed record. Possible source of later drawing-style comparisons. [Proposal link](https://doi.org/10.1016/j.dib.2025.111315) · [Additional access](https://pubmed.ncbi.nlm.nih.gov/39931092/)
+13. **Parsing Netlists of Integrated Circuits from Images via Graph Attention Network.** Open-access article in PubMed Central. Related work on producing connectivity representations from images. [Proposal link](https://doi.org/10.3390/s24010227) · [Additional access](https://pmc.ncbi.nlm.nih.gov/articles/PMC10781286/)
+14. **Vision-Based Topology-Consistent Structural Parsing of Hand-Drawn Circuit Diagrams.** Publisher article. Relevant to the visual tracing check and possible handwriting extensions. [Proposal link](https://doi.org/10.3390/s26113440) · [Additional access](https://www.mdpi.com/1424-8220/26/11/3440)
+15. **STRUDEL: Unrolling a Benchmark for Evaluating Vision-Language Models on Structured Diagram Understanding across Domains.** ACL Anthology paper. Cross-domain context for evaluating structure in diagrams. [Proposal link](https://aclanthology.org/2026.lrec-1.866/)
+16. **Stroke-Level Connectivity Verification: Grounding Vision-Language Models Against Topology Hallucination in Diagram Understanding.** Publisher abstract and bibliographic record. Useful for the distinction between a visible wire path and a guessed connection. Full publisher text may require access. [Proposal link](https://doi.org/10.1007/978-3-032-36023-6_19)
+
+## Additional closely related benchmark
+
+**CIRCUIT** is an additional reference outside the proposal bibliography. Section 5.2 describes supplying diagrams where available and adding netlists to some prompts. Our comparison isolates each representation in a separate request. The closely matched cases and one-factor redraw can support a focused replication or extension claim. [Paper, Section 5.2](https://arxiv.org/html/2502.07980#S5.SS2)
+
+The reference experiments motivate the design. Their published accuracy figures do not establish the difficulty of the new circuits.

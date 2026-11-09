@@ -1,0 +1,7 @@
+C001
+V1 IN 0 DC 6
+R1 IN OUT 1k
+R2 OUT 0 2k
+R3 OUT 0 2k
+.op
+.end

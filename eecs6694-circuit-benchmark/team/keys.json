@@ -1,0 +1,372 @@
+{
+  "P01": {
+    "family": "A",
+    "capacitor_nodes": [
+      "X",
+      "OUT"
+    ],
+    "Q1": [
+      "C1",
+      "R3",
+      "R4"
+    ],
+    "Q2": {
+      "direction": "downward",
+      "initially_equal": "X = OUT"
+    },
+    "Q3_V": 2.0,
+    "Q4_ms": 1.4545454545454546,
+    "double": "R4",
+    "baseline": {
+      "initial_v": 3.1999999999999997,
+      "settled_v": 2.0,
+      "rth_kohm": 1.25,
+      "tau_ms": 1.25
+    },
+    "changed": {
+      "initial_v": 4.0,
+      "settled_v": 2.909090909090909,
+      "rth_kohm": 1.4545454545454546,
+      "tau_ms": 1.4545454545454546
+    }
+  },
+  "P02": {
+    "family": "B",
+    "capacitor_nodes": [
+      "X",
+      "0"
+    ],
+    "Q1": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "Q2": {
+      "direction": "upward",
+      "initially_equal": "X = 0"
+    },
+    "Q3_V": 3.4468085106382986,
+    "Q4_ms": 3.441176470588235,
+    "double": "R4",
+    "baseline": {
+      "initial_v": 1.3846153846153848,
+      "settled_v": 3.4468085106382986,
+      "rth_kohm": 1.6595744680851066,
+      "tau_ms": 2.4893617021276597
+    },
+    "changed": {
+      "initial_v": 1.3846153846153848,
+      "settled_v": 3.1764705882352944,
+      "rth_kohm": 2.2941176470588234,
+      "tau_ms": 3.441176470588235
+    }
+  },
+  "P03": {
+    "family": "C",
+    "capacitor_nodes": [
+      "IN",
+      "X"
+    ],
+    "Q1": [
+      "R1",
+      "R3"
+    ],
+    "Q2": {
+      "direction": "downward",
+      "initially_equal": "IN = X"
+    },
+    "Q3_V": 6.365853658536587,
+    "Q4_ms": 1.377049180327869,
+    "double": "R4",
+    "baseline": {
+      "initial_v": 9.000000000000002,
+      "settled_v": 6.365853658536587,
+      "rth_kohm": 1.024390243902439,
+      "tau_ms": 1.024390243902439
+    },
+    "changed": {
+      "initial_v": 9.000000000000002,
+      "settled_v": 7.229508196721312,
+      "rth_kohm": 1.377049180327869,
+      "tau_ms": 1.377049180327869
+    }
+  },
+  "P04": {
+    "family": "D",
+    "capacitor_nodes": [
+      "X",
+      "OUT"
+    ],
+    "Q1": [
+      "C1",
+      "R1",
+      "R2",
+      "R4"
+    ],
+    "Q2": {
+      "direction": "upward",
+      "initially_equal": "X = OUT"
+    },
+    "Q3_V": 4.2105263157894735,
+    "Q4_ms": 2.571428571428571,
+    "double": "R2",
+    "baseline": {
+      "initial_v": 3.2000000000000006,
+      "settled_v": 4.2105263157894735,
+      "rth_kohm": 1.5789473684210527,
+      "tau_ms": 1.894736842105263
+    },
+    "changed": {
+      "initial_v": 3.1999999999999997,
+      "settled_v": 4.571428571428571,
+      "rth_kohm": 2.142857142857143,
+      "tau_ms": 2.571428571428571
+    }
+  },
+  "P05": {
+    "family": "A",
+    "capacitor_nodes": [
+      "IN",
+      "X"
+    ],
+    "Q1": [
+      "R3",
+      "R4"
+    ],
+    "Q2": {
+      "direction": "downward",
+      "initially_equal": "IN = X"
+    },
+    "Q3_V": 3.0,
+    "Q4_ms": 2.0000000000000004,
+    "double": "R2",
+    "baseline": {
+      "initial_v": 6.0,
+      "settled_v": 3.0,
+      "rth_kohm": 1.0,
+      "tau_ms": 1.5
+    },
+    "changed": {
+      "initial_v": 6.0,
+      "settled_v": 2.0000000000000004,
+      "rth_kohm": 1.3333333333333337,
+      "tau_ms": 2.0000000000000004
+    }
+  },
+  "P06": {
+    "family": "B",
+    "capacitor_nodes": [
+      "X",
+      "OUT"
+    ],
+    "Q1": [
+      "C1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "Q2": {
+      "direction": "downward",
+      "initially_equal": "X = OUT"
+    },
+    "Q3_V": 4.000000000000001,
+    "Q4_ms": 2.260869565217391,
+    "double": "R1",
+    "baseline": {
+      "initial_v": 4.5,
+      "settled_v": 4.000000000000001,
+      "rth_kohm": 1.7777777777777777,
+      "tau_ms": 1.7777777777777777
+    },
+    "changed": {
+      "initial_v": 4.153846153846154,
+      "settled_v": 3.91304347826087,
+      "rth_kohm": 2.260869565217391,
+      "tau_ms": 2.260869565217391
+    }
+  },
+  "P07": {
+    "family": "C",
+    "capacitor_nodes": [
+      "X",
+      "0"
+    ],
+    "Q1": [
+      "R1",
+      "R3"
+    ],
+    "Q2": {
+      "direction": "upward",
+      "initially_equal": "X = 0"
+    },
+    "Q3_V": 6.222222222222222,
+    "Q4_ms": 1.4400000000000002,
+    "double": "R2",
+    "baseline": {
+      "initial_v": 2.6666666666666665,
+      "settled_v": 6.222222222222222,
+      "rth_kohm": 1.0,
+      "tau_ms": 1.2
+    },
+    "changed": {
+      "initial_v": 2.666666666666667,
+      "settled_v": 6.933333333333334,
+      "rth_kohm": 1.2000000000000002,
+      "tau_ms": 1.4400000000000002
+    }
+  },
+  "P08": {
+    "family": "D",
+    "capacitor_nodes": [
+      "X",
+      "0"
+    ],
+    "Q1": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "Q2": {
+      "direction": "upward",
+      "initially_equal": "X = 0"
+    },
+    "Q3_V": 3.6000000000000005,
+    "Q4_ms": 3.473684210526316,
+    "double": "R1",
+    "baseline": {
+      "initial_v": 2.5714285714285716,
+      "settled_v": 3.6000000000000005,
+      "rth_kohm": 1.8666666666666665,
+      "tau_ms": 2.8
+    },
+    "changed": {
+      "initial_v": 3.2727272727272734,
+      "settled_v": 3.789473684210527,
+      "rth_kohm": 2.3157894736842106,
+      "tau_ms": 3.473684210526316
+    }
+  },
+  "P09": {
+    "family": "A",
+    "capacitor_nodes": [
+      "X",
+      "0"
+    ],
+    "Q1": [
+      "R1",
+      "R3"
+    ],
+    "Q2": {
+      "direction": "upward",
+      "initially_equal": "X = 0"
+    },
+    "Q3_V": 1.3333333333333333,
+    "Q4_ms": 1.3333333333333337,
+    "double": "R4",
+    "baseline": {
+      "initial_v": 0.0,
+      "settled_v": 1.3333333333333333,
+      "rth_kohm": 1.0,
+      "tau_ms": 1.0
+    },
+    "changed": {
+      "initial_v": 0.0,
+      "settled_v": 1.7777777777777781,
+      "rth_kohm": 1.3333333333333337,
+      "tau_ms": 1.3333333333333337
+    }
+  },
+  "P10": {
+    "family": "B",
+    "capacitor_nodes": [
+      "IN",
+      "X"
+    ],
+    "Q1": [
+      "R1",
+      "R2",
+      "R4"
+    ],
+    "Q2": {
+      "direction": "downward",
+      "initially_equal": "IN = X"
+    },
+    "Q3_V": 3.6363636363636362,
+    "Q4_ms": 3.019354838709677,
+    "double": "R3",
+    "baseline": {
+      "initial_v": 4.3076923076923075,
+      "settled_v": 3.6363636363636362,
+      "rth_kohm": 1.772727272727273,
+      "tau_ms": 2.1272727272727274
+    },
+    "changed": {
+      "initial_v": 4.3076923076923075,
+      "settled_v": 3.3548387096774195,
+      "rth_kohm": 2.5161290322580645,
+      "tau_ms": 3.019354838709677
+    }
+  },
+  "P11": {
+    "family": "C",
+    "capacitor_nodes": [
+      "X",
+      "OUT"
+    ],
+    "Q1": [
+      "C1",
+      "R2",
+      "R4"
+    ],
+    "Q2": {
+      "direction": "upward",
+      "initially_equal": "X = OUT"
+    },
+    "Q3_V": 4.800000000000001,
+    "Q4_ms": 2.8888888888888893,
+    "double": "R4",
+    "baseline": {
+      "initial_v": 4.153846153846155,
+      "settled_v": 4.800000000000001,
+      "rth_kohm": 1.3,
+      "tau_ms": 1.9500000000000002
+    },
+    "changed": {
+      "initial_v": 4.153846153846154,
+      "settled_v": 5.111111111111111,
+      "rth_kohm": 1.925925925925926,
+      "tau_ms": 2.8888888888888893
+    }
+  },
+  "P12": {
+    "family": "D",
+    "capacitor_nodes": [
+      "IN",
+      "X"
+    ],
+    "Q1": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "Q2": {
+      "direction": "downward",
+      "initially_equal": "IN = X"
+    },
+    "Q3_V": 2.8723404255319154,
+    "Q4_ms": 2.1639344262295084,
+    "double": "R1",
+    "baseline": {
+      "initial_v": 5.727272727272728,
+      "settled_v": 2.8723404255319154,
+      "rth_kohm": 1.4042553191489364,
+      "tau_ms": 1.4042553191489364
+    },
+    "changed": {
+      "initial_v": 5.727272727272728,
+      "settled_v": 3.0983606557377055,
+      "rth_kohm": 2.1639344262295084,
+      "tau_ms": 2.1639344262295084
+    }
+  }
+}

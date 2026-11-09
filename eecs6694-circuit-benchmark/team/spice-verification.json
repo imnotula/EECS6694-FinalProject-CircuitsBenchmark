@@ -1,0 +1,174 @@
+{
+  "simulator": "ngspice-46",
+  "units": "V, ms",
+  "runs": [
+    {
+      "case": "P01",
+      "condition": "baseline",
+      "initial_v": 3.2,
+      "settled_v": 2.0,
+      "tau_ms": 1.2500102666651347
+    },
+    {
+      "case": "P01",
+      "condition": "changed",
+      "initial_v": 4.0,
+      "settled_v": 2.90909,
+      "tau_ms": 1.4545716477832822
+    },
+    {
+      "case": "P02",
+      "condition": "baseline",
+      "initial_v": 1.38462,
+      "settled_v": 3.44681,
+      "tau_ms": 2.4893551501434796
+    },
+    {
+      "case": "P02",
+      "condition": "changed",
+      "initial_v": 1.38462,
+      "settled_v": 3.17647,
+      "tau_ms": 3.4412053477083004
+    },
+    {
+      "case": "P03",
+      "condition": "baseline",
+      "initial_v": 9.0,
+      "settled_v": 6.36585,
+      "tau_ms": 1.0243844364046033
+    },
+    {
+      "case": "P03",
+      "condition": "changed",
+      "initial_v": 9.0,
+      "settled_v": 7.22951,
+      "tau_ms": 1.3770505486483622
+    },
+    {
+      "case": "P04",
+      "condition": "baseline",
+      "initial_v": 3.2,
+      "settled_v": 4.21053,
+      "tau_ms": 1.8947705939075574
+    },
+    {
+      "case": "P04",
+      "condition": "changed",
+      "initial_v": 3.2,
+      "settled_v": 4.57143,
+      "tau_ms": 2.5714152593815385
+    },
+    {
+      "case": "P05",
+      "condition": "baseline",
+      "initial_v": 6.0,
+      "settled_v": 3.0,
+      "tau_ms": 1.4999930827712022
+    },
+    {
+      "case": "P05",
+      "condition": "changed",
+      "initial_v": 6.0,
+      "settled_v": 2.0,
+      "tau_ms": 1.999998171934564
+    },
+    {
+      "case": "P06",
+      "condition": "baseline",
+      "initial_v": 4.5,
+      "settled_v": 4.0,
+      "tau_ms": 1.7778255543965376
+    },
+    {
+      "case": "P06",
+      "condition": "changed",
+      "initial_v": 4.15385,
+      "settled_v": 3.91304,
+      "tau_ms": 2.2607646878973027
+    },
+    {
+      "case": "P07",
+      "condition": "baseline",
+      "initial_v": 2.66667,
+      "settled_v": 6.22222,
+      "tau_ms": 1.1999835411388269
+    },
+    {
+      "case": "P07",
+      "condition": "changed",
+      "initial_v": 2.66667,
+      "settled_v": 6.93333,
+      "tau_ms": 1.439993048106207
+    },
+    {
+      "case": "P08",
+      "condition": "baseline",
+      "initial_v": 2.57143,
+      "settled_v": 3.6,
+      "tau_ms": 2.8000348764613827
+    },
+    {
+      "case": "P08",
+      "condition": "changed",
+      "initial_v": 3.27273,
+      "settled_v": 3.78947,
+      "tau_ms": 3.4735584338933827
+    },
+    {
+      "case": "P09",
+      "condition": "baseline",
+      "initial_v": 2.00013e-06,
+      "settled_v": 1.33333,
+      "tau_ms": 0.9999711278026395
+    },
+    {
+      "case": "P09",
+      "condition": "changed",
+      "initial_v": 2.00013e-06,
+      "settled_v": 1.77778,
+      "tau_ms": 1.3333376203245593
+    },
+    {
+      "case": "P10",
+      "condition": "baseline",
+      "initial_v": 4.30769,
+      "settled_v": 3.63636,
+      "tau_ms": 2.127276351308717
+    },
+    {
+      "case": "P10",
+      "condition": "changed",
+      "initial_v": 4.30769,
+      "settled_v": 3.35484,
+      "tau_ms": 3.0193634446781137
+    },
+    {
+      "case": "P11",
+      "condition": "baseline",
+      "initial_v": 4.15385,
+      "settled_v": 4.8,
+      "tau_ms": 1.9500074586521932
+    },
+    {
+      "case": "P11",
+      "condition": "changed",
+      "initial_v": 4.15385,
+      "settled_v": 5.11111,
+      "tau_ms": 2.8888345878982014
+    },
+    {
+      "case": "P12",
+      "condition": "baseline",
+      "initial_v": 5.72727,
+      "settled_v": 2.87234,
+      "tau_ms": 1.4042573336939908
+    },
+    {
+      "case": "P12",
+      "condition": "changed",
+      "initial_v": 5.72727,
+      "settled_v": 3.09836,
+      "tau_ms": 2.163937825366591
+    }
+  ]
+}
